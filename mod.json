@@ -1,0 +1,85 @@
+{
+	"geode": "5.7.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "maskagd.infinity_particles",
+	"name": "Infinity Particles",
+	"version": "v1.0.0",
+	"developer": "maskagd",
+	"description": "Customize particles with multipliers",
+	"tags": ["gameplay", "customization", "editor", "offline"],
+	"links": {
+        "source": "https://github.com/maskagd/custom-particles-settings",
+        "homepage": "https://www.youtube.com/@maskagd"
+    },
+	"settings": {
+        "enabled": {
+            "name": "Enabled",
+            "description": "Apply global particle tweaks",
+            "type": "bool",
+            "default": true
+        },
+        "particle-count-multiplier": {
+            "name": "Particle Count",
+            "description": "Multiplies total particles and emission rate. 10 means ten times more particles.",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 50.0
+        },
+        "max-particles-per-emitter": {
+            "name": "Max Particles",
+            "description": "Safety cap after the count multiplier is applied to one emitter",
+            "type": "int",
+            "default": 20000,
+            "min": 1,
+            "max": 100000
+        },
+        "size-multiplier": {
+            "name": "Particle Size",
+            "description": "Multiplies individual particle start and end size",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 100.0
+        },
+        "life-multiplier": {
+            "name": "Lifetime",
+            "description": "Multiplies how long particles stay alive",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 50.0
+        },
+        "speed-multiplier": {
+            "name": "Speed",
+            "description": "Multiplies particle speed",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 100.0
+        },
+        "gravity-multiplier": {
+            "name": "Gravity",
+            "description": "Multiplies particle gravity strength",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 100.0
+        },
+        "rotation-multiplier": {
+            "name": "Rotation",
+            "description": "Multiplies particle spin and radius-mode rotation speed",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 100.0
+        }
+    }
+
+}
+	
