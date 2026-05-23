@@ -10,7 +10,7 @@ else()
 endif()
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 
-project(custom-particles-settings VERSION 1.0.0)
+project(Infinity-Particles VERSION 1.0.0)
 
 set(SOURCES
     "src/main.cpp"

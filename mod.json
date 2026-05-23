@@ -8,12 +8,12 @@
 	},
 	"id": "maskagd.infinity_particles",
 	"name": "Infinity Particles",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "maskagd",
 	"description": "Customize particles with multipliers",
 	"tags": ["gameplay", "customization", "editor", "offline"],
 	"links": {
-        "source": "https://github.com/maskagd/custom-particles-settings",
+        "source": "https://github.com/maskagd/Infinity-Particles",
         "homepage": "https://www.youtube.com/@maskagd"
     },
 	"settings": {
